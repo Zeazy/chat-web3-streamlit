@@ -46,7 +46,7 @@ qa_with_sources = RetrievalQAWithSourcesChain.from_chain_type(
 
 
 customize_response = True
-st.title("ChatGPT-like clone")
+st.title("Web3 Chat with Sources")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
