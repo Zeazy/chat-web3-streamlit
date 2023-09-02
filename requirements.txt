@@ -1,0 +1,5 @@
+langchain #!pip install -q langchain==0.0.199
+pinecone-client
+openai
+streamlit
+tiktoken
