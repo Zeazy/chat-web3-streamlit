@@ -22,11 +22,7 @@ model_name_functions = "gpt-3.5-turbo-0613"
 model_name_main = "gpt-3.5-turbo"
 model_name = model_name_main
 
-from langchain.chains import RetrievalQA, RetrievalQAWithSourcesChain
-from langchain.chat_models import ChatOpenAI
-
 # Initialize the ChatOpenAI and RetrievalQAWithSourcesChain instances
-
 llm = ChatOpenAI(
     temperature=model_temp,
     model_name=model_name,
