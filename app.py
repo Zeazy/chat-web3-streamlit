@@ -7,11 +7,9 @@ from langchain.chat_models import ChatOpenAI
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
 
-from service.env import OPENAI_API_KEY, PINECONE_API_KEY
 from service.stream_handler import StreamHandler
 
-pinecone.init(api_key=PINECONE_API_KEY, environment="us-west4-gcp")
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+pinecone.init(api_key=os.environ["PINECONE_API_KEY"], environment="us-west4-gcp")
 
 embeddings = OpenAIEmbeddings()
 my_index = "eth-org-website-index"
@@ -21,6 +19,7 @@ model_temp = 0
 model_name_functions = "gpt-3.5-turbo-0613"
 model_name_main = "gpt-3.5-turbo"
 model_name = model_name_main
+
 
 # Initialize the ChatOpenAI and RetrievalQAWithSourcesChain instances
 llm = ChatOpenAI(
