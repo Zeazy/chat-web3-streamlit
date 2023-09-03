@@ -1,7 +1,7 @@
 # AI Chatbot for Web3 Questions
 
 ## Description
-This repository showcases a demo of an AI chatbot that answers questions about Web3. The chatbot uses embeddings from Ethereum.org stored in Pinecone to provide answers based on Ethereum source material, complete with sources. The responses are streamed back to the user in a manner similar to ChatGPT. The app is built with Streamlit and you can check it out for yourself[here](https://chat-web3-app-ivrdgytzd3y8tmkhprkje6.streamlit.app/).
+This repository showcases a demo of an AI chatbot that answers questions about Web3. The chatbot uses embeddings from Ethereum.org stored in Pinecone to provide answers based on Ethereum source material, complete with sources. The responses are streamed back to the user in a manner similar to ChatGPT. The app is built with Streamlit and you can check it out for yourself  [here](https://chat-web3-app-ivrdgytzd3y8tmkhprkje6.streamlit.app/).
 
 <p align="center">
   <img src="assets/chat.png" alt="Image of chat with web3" style="width: 75%; height: auto;">
