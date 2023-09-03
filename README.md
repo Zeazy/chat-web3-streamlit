@@ -62,4 +62,6 @@ Prerequisites: 1) Python 3.8+, 2) Virtual Environment (optional but recommended)
     ```bash
     streamlit run app.py
     ```
-
+<p align="center">
+  <img src="assets/chat.png" alt="Image of chat with web3" width="auto" height="auto">
+</p>
